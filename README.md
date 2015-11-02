@@ -2,6 +2,8 @@
 
 **Generate [Diceware](http://world.std.com/~reinhold/diceware.html) [passphrases](https://en.wikipedia.org/wiki/Passphrase) in your shell.**
 
+[![Build Status](https://travis-ci.org/michaelhue/diceypass.svg?branch=master)](https://travis-ci.org/michaelhue/diceypass)
+
 ## Install
 
 `diceypass` is a shell script, so drop it somehwere and make sure it's added to your `$PATH`. Or use this nifty one-liner:
