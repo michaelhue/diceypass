@@ -3,8 +3,11 @@ sudo: false
 
 before_script:
   - curl -L https://github.com/bmizerany/roundup/tarball/v0.0.6 | tar xvzf -
-  - cd bmizerany-roundup-f526c39 && ./configure && make && make install
+  - cd bmizerany-roundup-f526c39
+  - ./configure --prefix=$HOME/roundup && make && make install
+  - export PATH=$PATH:$HOME/roundup/bin/
   - cd -
+  - rm -R bmizerany-roundup-f526c39
 
 script:
   - ./test
