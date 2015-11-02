@@ -20,7 +20,7 @@
 #
 
 # Version number (semver)
-VERSION="0.0.1"
+VERSION="0.0.2"
 
 # Word list
 # Uses the official Diceware8k list
