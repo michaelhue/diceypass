@@ -29,14 +29,6 @@ WORDS="a a&p a's a2 a3 a4 a5 a6 a7 a8 a9 aa aaa aaaa aaron ab aba ababa aback ab
 
 ################
 
-# Use colors if we are writing to a tty device.
-if (test -t 1)
-then
-  red=$(printf "\033[31m")
-  grn=$(printf "\033[32m")
-  clr=$(printf "\033[m")
-fi
-
 # Generates a passphrase
 #
 # $1 - Length (default: 6)
